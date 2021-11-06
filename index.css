@@ -215,6 +215,7 @@ body {
     border: 2px solid #C7C7C7;
     padding: 15px 15px;
     border-radius: 15px;
+    user-select:none;
 }
 .video {
     position: absolute;
