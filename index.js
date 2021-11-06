@@ -3,9 +3,12 @@ $('.content-button-blue, .schedule-exit-icon').click(function () {
 });
 $('.content-button, .video-exit-icon').click(function () {
     $('.video').toggleClass('close-video');
-});
+ });
 $('.header-menu, .menu-exit-icon').click(function () {
     $('.menu').toggleClass('close-menu');
+    $('.schedule').addClass('close'); 
+    $('.video').addClass('close-video'); 
+
 });
 
 $(document).ready(function(){
@@ -19,3 +22,10 @@ $(document).ready(function(){
              });
          }); 
  });
+ $('.banner, .header-title,.content-title-wrapper,.content-subtext-wrapper').click(function () {
+    $('.schedule').addClass('close'); 
+    $('.video').addClass('close-video'); 
+    $('.menu').addClass('close-menu');
+
+
+});

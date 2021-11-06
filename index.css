@@ -130,6 +130,7 @@ body {
     border: 3px solid #0286FF;
     border-radius: 89px;
     text-align: center;
+    user-select:none;
 }
 
 .content-button {
@@ -138,6 +139,7 @@ body {
     font-size: 42px;
     color: #000;
     text-align: center;
+    user-select:none;
 }
 
 .schedule {
@@ -352,11 +354,13 @@ body {
     margin: 0;
     font-size: 80px;
     text-overflow: clip;
+    user-select:none;
 }
 .menu-title-bold {
     margin: 0;
     font-size: 80px;
     font-weight: bold;
+    user-select:none;
 }
 .cart-plus {
     font-size: 35px;
