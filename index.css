@@ -23,6 +23,7 @@ body {
     background: rgba(0, 0, 0, 0.3);
     align-items: center;
     justify-content: space-between;
+    user-select: none;
 }
 
 .header-title h1 {
