@@ -392,9 +392,5 @@ body {
 }
 
 @media only screen and (min-width: 700px) {
-    .flex-container {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-    }
+
 }
