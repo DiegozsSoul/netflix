@@ -1,10 +1,14 @@
-$('.content-button-blue, .schedule-exit-icon').click(function () {
+$('.content-button-blue, .schedule-exit').click(function () {
     $('.schedule').toggleClass('close');
+    $('.menu').addClass('close-menu'); 
+    $('.video').addClass('close-video'); 
 });
-$('.content-button, .video-exit-icon').click(function () {
+$('.content-button, .video-exit').click(function () {
     $('.video').toggleClass('close-video');
+    $('.schedule').addClass('close'); 
+    $('.menu').addClass('close-menu'); 
  });
-$('.header-menu, .menu-exit-icon').click(function () {
+$('.header-menu, .menu-exit').click(function () {
     $('.menu').toggleClass('close-menu');
     $('.schedule').addClass('close'); 
     $('.video').addClass('close-video'); 
