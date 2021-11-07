@@ -3,7 +3,7 @@
 
 <head>
     <title>Cinema</title>
-    <meta name="description" content="A simple website, built with Glitch. Remix it to get your own." />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -27,48 +27,51 @@
             <img class="header-menu-icon"
                 src="https://cdn.glitch.me/82b0cd68-4d88-4a35-8f28-e42e5cbca8ba%2Fticket.png?v=1636152157853"
                 alt="Ticket" />
-                <span class="cart-plus">0</span>
+            <span class="cart-plus">0</span>
         </div>
     </div>
-    <div class="banner">
-        <picture>
-            <source class="banner-poster"
-                srcset="https://cdn.glitch.me/82b0cd68-4d88-4a35-8f28-e42e5cbca8ba%2Fpelicula1.png?v=1636151600408"
-                media="(max-width: 749px)">
-            <source class="banner-poster"
-                srcset="https://cdn.glitch.me/82b0cd68-4d88-4a35-8f28-e42e5cbca8ba%2Fpelicula1.png?v=1636151600408"
-                media="(min-width: 750px) and (max-width: 949px)">
-            <source class="banner-poster"
-                srcset="https://cdn.glitch.me/82b0cd68-4d88-4a35-8f28-e42e5cbca8ba%2Fpelicula1.png?v=1636151600408"
-                media="(min-width: 950px)">
-            <img class="banner-poster"
-                src="https://cdn.glitch.me/82b0cd68-4d88-4a35-8f28-e42e5cbca8ba%2Fpelicula1.png?v=1636151600408"
-                alt="Banner" />
-        </picture>
-    </div>
-    <div class="content">
-        <div class="content-tag-wrapper">
-            <p class="content-tag">New Release</p>
+    <div class="flex-container">
+        <div class="banner">
+            <picture>
+                <source class="banner-poster"
+                    srcset="https://cdn.glitch.me/82b0cd68-4d88-4a35-8f28-e42e5cbca8ba%2Fpelicula1.png?v=1636151600408"
+                    media="(max-width: 749px)">
+                <source class="banner-poster"
+                    srcset="https://cdn.glitch.me/82b0cd68-4d88-4a35-8f28-e42e5cbca8ba%2Fshang-banner5.jpeg?v=1636260254353"
+                    media="(min-width: 750px) and (max-width: 949px)">
+                <source class="banner-poster"
+                    srcset=""
+                    media="(min-width: 950px)">
+                <img class="banner-poster"
+                    src="https://cdn.glitch.me/82b0cd68-4d88-4a35-8f28-e42e5cbca8ba%2Fpelicula1.png?v=1636151600408"
+                    alt="Banner" />
+            </picture>
         </div>
-        <div class="content-date-wrapper">
-            <p class="content-date">MARVEL 2021</p>
-        </div>
-        <div class="content-title-wrapper">
-            <p class="content-title">Shang-chi and the legend of the ten rings</p>
-        </div>
-        <div class="content-subtext-wrapper">
-            <p class="content-subtext">Shang-Chi (Simu Liu) must confront the past he thought he left behind when he is
-                drawn into the web of the mysterious Ten Rings organization.</p>
-        </div>
-        <div class="content-button-wrapper">
-            <div class="content-button-container">
-                <div class="content-button-blue">
-                    Buy a ticket
-                </div>
+        <div class="content">
+            <div class="content-tag-wrapper">
+                <p class="content-tag">New Release</p>
             </div>
-            <div class="content-button-container">
-                <div class="content-button">
-                    Watch the trailer
+            <div class="content-date-wrapper">
+                <p class="content-date">MARVEL 2021</p>
+            </div>
+            <div class="content-title-wrapper">
+                <p class="content-title">Shang-chi and the legend of the ten rings</p>
+            </div>
+            <div class="content-subtext-wrapper">
+                <p class="content-subtext">Shang-Chi (Simu Liu) must confront the past he thought he left behind when he
+                    is
+                    drawn into the web of the mysterious Ten Rings organization.</p>
+            </div>
+            <div class="content-button-wrapper">
+                <div class="content-button-container">
+                    <div class="content-button-blue">
+                        Buy a ticket
+                    </div>
+                </div>
+                <div class="content-button-container">
+                    <div class="content-button">
+                        Watch the trailer
+                    </div>
                 </div>
             </div>
         </div>
@@ -129,7 +132,9 @@
                 </p>
             </div>
             <div class="video-button-wrapper">
-                    <iframe src="https://www.youtube.com/embed/8YjFbMbfXaQ" title="Shang-Chi Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/8YjFbMbfXaQ" title="Shang-Chi Trailer" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
             </div>
         </div>
     </div>
@@ -162,4 +167,5 @@
     </div>
 </body>
 <script src="index.js"></script>
+
 </html>
