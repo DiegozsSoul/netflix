@@ -27,7 +27,7 @@ body {
 }
 
 .header-title h1 {
-    font-size: 25px;
+    font-size: 27px;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -44,7 +44,7 @@ body {
 }
 
 .header-menu-icon {
-    height: 18px;
+    height: 20px;
     width: auto;
     padding: 10px 15px;
     display: block;
